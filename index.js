@@ -10,7 +10,7 @@ connectDataBase();
 //Middleware para manejar el JSON
 app.use(express.json())
 
-app.use('/albums', albumRoutes)
+app.use('/discografia', albumRoutes)
 
 
 const PORT = 3000
